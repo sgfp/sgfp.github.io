@@ -1,15 +1,11 @@
 /* Main Styles*/
 
-body{
-	padding-top: 50px;
-}
-
 /* Header & Navbar*/
 
 .header{
 	height: 100%;
-	background: url('../assets/background1.png') repeat center center;
-	padding: 90px 0px; 
+	background: url('../assets/background.png') repeat center center;
+	padding: 90px 0px;
 }
 
 .header h1{
@@ -60,7 +56,6 @@ body{
 
 .divider{
 	width: 100%;
-	opacity: 0.5;
 }
 
 .content h1{
@@ -102,8 +97,23 @@ body{
 	margin: 100px auto;
 }
 
-.dropmysite, .zalora{
-	padding-top: 20px;
+.companies-title {
+    margin: 0 0 120px 0;
+}
+
+.company {
+    height: 120px;
+    width: 300px;
+    position:relative;
+}
+
+.company img {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
 }
 
 /* Contact*/
